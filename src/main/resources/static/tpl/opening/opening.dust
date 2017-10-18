@@ -1,0 +1,30 @@
+<form class="container col-md-6">
+    <br/>
+    <div class="row">
+        <div class="col-12 input-group">
+            <span class="input-group-addon" id="basic-addon1">Имя:</span>
+            <input id="firstName" type="text" class="form-control" placeholder="" aria-label="firstName" aria-describedby="basic-addon1">
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="col-12 input-group">
+            <span class="input-group-addon" id="basic-addon1">Фамилия:</span>
+            <input id="lastName" type="text" class="form-control" placeholder="" aria-label="lastName" aria-describedby="basic-addon1">
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="col-12 input-group form-group">
+            <span class="input-group-addon" id="basic-addon1">Email:</span>
+            <input id="email" type="text" class="form-control" placeholder="" aria-label="Emai" aria-describedby="basic-addon1">
+        </div>
+    </div>
+    <br/>
+    <div class="row float-right">
+        <div class="col-12 input-group">
+            <button type="button" class="btn btn-primary">Приступить к тесту</button>
+        </div>
+    </div>
+</form>
+<br/>

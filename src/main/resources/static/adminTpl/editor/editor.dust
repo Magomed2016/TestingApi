@@ -1,0 +1,28 @@
+<div class="row">
+    <nav id="questions" class="col-sm-4 col-md-2 d-none d-sm-block bg-light sidebar">
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="#-1">Создать новый вопрос<span class="sr-only"></span></a>
+            </li>
+            {#questions}
+            <li class="nav-item">
+                <a class="nav-link" href="#{.num}">{.num}.{.question} <span class="sr-only"></span></a>
+            </li>
+            {/questions}
+        </ul>
+    </nav>
+<div class="col-8 main" id="answerForm">
+</div>
+    <nav id="topics" class="col-sm-4 col-md-2 d-none d-sm-block bg-light sidebar">
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="#-1">Создать новую тему<span class="sr-only"></span></a>
+            </li>
+            {#topics}
+            <li class="nav-item">
+                <a class="nav-link" href="#{.num}">{.name}<span class="sr-only"></span></a>
+            </li>
+            {/topics}
+        </ul>
+    </nav>
+</div>

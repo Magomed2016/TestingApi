@@ -1,0 +1,44 @@
+<form class="container col-md-6">
+    <br/>
+    <div class="row alert alert-success al alert-blue">
+        <p class="question">
+            {questionText}
+        </p>
+    </div>
+    <br/> {@eq key=questionType value="1"} {#answers}
+    <div class="row">
+        <div class="form-check">
+            <label class="form-check-label">
+                <input id="id" class="form-check-input" type="checkbox" quetype={questionType} value={.answerId}>
+                <span>{.text} </span>
+            </label>
+           
+        </div>
+    </div>
+    <br/> {/answers} {/eq} {@eq key=questionType value="0"} {#answers}
+    <div class="row">
+        <div class="form-check">
+            <label class="form-check-label">
+                <input id="id" name="answer" class="form-check-input" type="radio" quetype={questionType} value="{.answerId}">
+                    <span>{.text} </span>
+            </label>
+           
+        </div>
+    </div>
+    <br/> {/answers} {/eq} {@eq key=questionType value="2"} {#answers}
+    <div id="id" class="row" value="{.answerId}" >
+        <label>Ответ</label>
+        <textarea  class="form-control" rows="3" ></textarea>
+    </div>
+    <br/>
+    
+    <br/>{/answers} {/eq}
+    <div class="row float-right">
+        <div class="col-12 input-group ">
+            <button   type="button" class="btn btn-primary">Ответить</button>
+        </div>
+    </div>
+
+
+</form>
+<br/>

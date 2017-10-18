@@ -1,0 +1,61 @@
+<form class="container col-md-6">
+    <br/>
+    <select class="row custom-select">
+        <option value="radio">Один ответ правильный</option>
+        <option value="checkbox">Несколько ответов правильные</option>
+        <option value="textarea">Вписать свой ответ</option>
+    </select>
+    <br/>
+    <br/>
+    <div class="row alert alert-success al alert-blue">
+        <textarea class="form-control editor-question">
+            {question}
+        </textarea>
+    </div>
+    <div id="answers">{@eq key=type value="checkbox"} {#answers}
+        <div class="answerBox row m-w100">
+            <div class="form-check m-w100">
+                <label class="form-check-label m-w100">
+                <div><a href="#" class="delete">X</a></div>
+
+                <input name="answer" class="form-check-input" type="checkbox" value={.num}>
+                <textarea class="m-w100 form-control">{.option}</textarea>
+            </label>
+            </div>
+        </div>{/answers} {/eq} {@eq key=type value="radio"} {#answers}
+        <div class="answerBox row m-w100">
+            <div class="form-check m-w100">
+                <label class="form-check-label m-w100">
+                    <div><a href="#" class="delete">X</a></div>
+
+                <input name="answer" class="form-check-input" type="radio" value="{.num}">
+                    <textarea class="m-w100 form-control">{.option}</textarea>
+            </label>
+            </div>
+        </div>
+        {/answers} {/eq} {@eq key=type value="textarea"}
+        <div class="row answerBox">
+            <label>Ответ</label>
+            <textarea class="form-control" rows="3"></textarea>
+        </div>{/eq}
+    </div>
+    <div class="p-b40">
+        <div class="float-right">
+            <div class="col-12 input-group ">
+                <button id="save" type="button" class="btn btn-primary">Сохранить</button>
+            </div>
+        </div>
+        <div class="float-right">
+            <div class="col-12 input-group ">
+                <button id="deleteButton" type="button" class="btn btn-primary">Удалить</button>
+            </div>
+        </div>
+        <div class="float-left">
+            <div class="col-12 input-group ">
+                <button id="addField" type="button" class="btn btn-primary">Добавить поле</button>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+</form>

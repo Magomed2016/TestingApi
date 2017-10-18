@@ -1,0 +1,13 @@
+{
+    "num": "2",
+    "type": "radio",
+    "rightAnswer":[0],
+    "question": "Текст вопроса 2",
+    "answers": [{
+        "num": "1",
+        "option": "Ответ 1"
+    },{
+        "num": "2",
+        "option": "Ответ 2"
+    }]
+}

@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row col-12">
+        <p class="bigText">
+            Спасибо за участие в тестировании!
+        </p>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="col-12 input-group ">
+            <button type="button" class="btn btn-primary mx-auto">Вернуться к начальному экрану</button>
+        </div>
+    </div>
+</div>

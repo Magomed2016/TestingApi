@@ -1,0 +1,16 @@
+{
+    "num": "1",
+    "type": "checkbox",
+    "rightAnswer":[0, 1],
+    "question": "Текст вопроса 1",
+    "answers": [{
+        "num": "0",
+        "option": "Ответ 1"
+    },{
+        "num": "1",
+        "option": "Ответ 2"
+    },{
+        "num": "2",
+        "option": "Ответ 3"
+    }]
+}

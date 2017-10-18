@@ -1,0 +1,136 @@
+{
+    "questions": [{
+            "num": "1",
+            "type": "check",
+            "question": "Текст вопроса 1",
+            "answers": [{
+                "num": "1",
+                "option": "Ответ 1"
+            }, {
+                "num": "2",
+                "option": "Ответ 2"
+            }]
+    }, {
+            "num": "2",
+            "type": "radio",
+            "question": "Текст вопроса 2",
+            "answers": [{
+                "num": "1",
+                "option": "Ответ 1"
+    }, {
+                "num": "2",
+                "option": "Ответ 2"
+    }]
+}, {
+            "num": "3",
+            "type": "radio",
+            "question": "Текст вопроса 3",
+            "answers": [{
+                "num": "1",
+                "option": "Ответ 1"
+    }, {
+                "num": "2",
+                "option": "Ответ 2"
+    }]
+}, {
+            "num": "4",
+            "type": "radio",
+            "question": "Текст вопроса 4",
+            "answers": [{
+                "num": "1",
+                "option": "Ответ 1"
+    }, {
+                "num": "2",
+                "option": "Ответ 2"
+    }]
+},{
+            "num": "4",
+            "type": "radio",
+            "question": "Текст вопроса 4",
+            "answers": [{
+                "num": "1",
+                "option": "Ответ 1"
+    }, {
+                "num": "2",
+                "option": "Ответ 2"
+    }]
+},{
+            "num": "4",
+            "type": "radio",
+            "question": "Текст вопроса 4",
+            "answers": [{
+                "num": "1",
+                "option": "Ответ 1"
+    }, {
+                "num": "2",
+                "option": "Ответ 2"
+    }]
+},{
+            "num": "4",
+            "type": "radio",
+            "question": "Текст вопроса 4",
+            "answers": [{
+                "num": "1",
+                "option": "Ответ 1"
+    }, {
+                "num": "2",
+                "option": "Ответ 2"
+    }]
+},{
+            "num": "4",
+            "type": "radio",
+            "question": "Текст вопроса 4",
+            "answers": [{
+                "num": "1",
+                "option": "Ответ 1"
+    }, {
+                "num": "2",
+                "option": "Ответ 2"
+    }]
+},{
+            "num": "4",
+            "type": "radio",
+            "question": "Текст вопроса 4",
+            "answers": [{
+                "num": "1",
+                "option": "Ответ 1"
+    }, {
+                "num": "2",
+                "option": "Ответ 2"
+    }]
+},{
+            "num": "4",
+            "type": "radio",
+            "question": "Текст вопроса 4",
+            "answers": [{
+                "num": "1",
+                "option": "Ответ 1"
+    }, {
+                "num": "2",
+                "option": "Ответ 2"
+    }]
+},{
+            "num": "4",
+            "type": "radio",
+            "question": "Текст вопроса 4",
+            "answers": [{
+                "num": "1",
+                "option": "Ответ 1"
+    }, {
+                "num": "2",
+                "option": "Ответ 2"
+    }]
+},{
+            "num": "4",
+            "type": "radio",
+            "question": "Текст вопроса 4",
+            "answers": [{
+                "num": "1",
+                "option": "Ответ 1"
+    }, {
+                "num": "2",
+                "option": "Ответ 2"
+    }]
+}
+    ]
+}
